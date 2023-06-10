@@ -1,0 +1,100 @@
+*{
+	margin: 0px;
+	padding: 0px;
+                                                   
+
+font-family: 'Geologica', sans-serif;
+}
+
+
+
+body{
+	background-color: #3498db;
+}
+
+.main{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+
+#contaner{
+	background-color: white;
+	
+	width: 60%;
+	box-shadow: 1px 3px 21px  25px rgba(161,64,189,0.5);
+	
+	padding: 25px;
+	border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px){
+	#contaner{
+		width: 80%;
+
+	}
+
+	
+} 
+
+.end{ 
+		display: flex;
+		align-items: center;
+		justify-content: center;}
+
+
+
+.row{
+	margin: 25px;
+}
+
+.btn{
+	width: 100%;
+	padding: 5px;
+	/*margin: 5px;*/
+	background-color: #3498db;
+	border-radius: 5px;
+	color: white;
+	border: none;
+	font-size: 17px;
+
+}
+
+@media screen and (max-width: 600px){
+	.row{
+		padding: 5px;
+
+	}
+} 
+
+
+@media screen and (max-width: 600px){
+	
+} 
+
+
+.btn1{
+	width: 49.4%;
+	padding: 5px;
+	
+	margin-top: 10px;
+	background-color: #3498db;
+	border-radius: 5px;
+	color: white;
+	border: none;
+	font-size: 17px;
+
+
+}
+
+@media screen and (max-width: 500px){
+	.btn1{
+		padding: 10px;
+		width: 49%}
+
+
+} 
